@@ -1,0 +1,36 @@
+.delet-user-modal{
+    border: none;
+
+    padding: 2rem;
+
+    font-family: var(--font-primary);
+
+    width: 600px;
+}
+.delet-user__container{
+    width: 500px;
+
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    position: relative;
+}
+.delet-user__container h1{
+    font: var(--font-bold) var(--font-size-2) var(--font-primary);
+    text-align: center;
+}
+.delet-user__container button{
+    width: 100%;
+}
+.delet-user__container span{
+    position: absolute;
+    left: 560px;
+    top: -20px;
+
+    cursor: pointer;
+}

@@ -1,0 +1,43 @@
+.edit-user-modal{
+    width: 350px;
+    border: none;
+
+    font-family: var(--font-primary);
+
+    padding: 2rem;
+}
+.edit-user__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.header__edit-user{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+    position: relative;
+
+    margin-bottom: 2rem;
+}
+.header__edit-user h1{
+    font: var(--font-bold) var(--font-size-2) var(--font-primary);
+}
+.header__edit-user span{
+    position: absolute;
+    left: 360px;
+    top: -18px;
+
+    cursor: pointer;
+}
+.edit-user__container form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    width: 100%;
+
+}

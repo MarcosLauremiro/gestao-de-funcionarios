@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- LINKS STYLES -->
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/globalStyles.css">
+    <link rel="stylesheet" href="../styles/login.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/button.css">
+    <link rel="stylesheet" href="../styles/input.css">
+    <link rel="stylesheet" href="../styles/toast.css">
+    
+    <link rel="stylesheet" href="../pages/userPages.html">
+
+    <!-- LINKS FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;600;700;800&display=swap" rel="stylesheet">
+
+
+    <title>Login</title>
+</head>
+<body>
+    <header class="header__controler">
+        <div class="header__container">
+            <div>
+                <img src="../assets/img/elipse_header.svg" alt="">
+                <h1>Kenzie Empresas</h1>
+            </div>
+            <div class="login_register__container">
+                <button id="button-home-login" class="button">Home</button>
+                <button class="button button_blue_back button-register-login">Cadastro</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main__controler">
+        <div class="main__container">
+            <div class="title-login">
+                <h1>Login</h1>
+                <p>Preencha os campos para realizar login</p>
+            </div>
+
+            <form action="">
+                <input placeholder="Seu e-mail" class="input" type="email" name="email" id="email-login">
+                <input placeholder="Sua senha" class="input" type="password" name="password" id="password-login">
+                <button id="button-login" class="button button_blue_back">Login</button>
+                <p>ou</p>
+                <button class="button button-register-login">Cadastre-se</button>
+            </form>
+        </div>
+    </main>
+
+    <div class="toast__container active">
+        <p>Login Realizado com sucesso</p>
+    </div>
+
+    <!-- LINKS SCRIPTS -->
+    <script type="module" src="../scripts/login.js"></script>
+</body>
+</html>

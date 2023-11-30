@@ -1,0 +1,6 @@
+.input{
+    height: calc(var(--height-buttons) - 3px) ;
+    padding: none;
+    margin: none;
+    border: 1px solid var(--color-grey-5);
+}

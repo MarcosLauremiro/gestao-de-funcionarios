@@ -1,0 +1,22 @@
+.logout{
+    font-family: var(--font-primary);
+
+    border: none;
+
+    background-color: var(--color-grey-9);
+}
+.logout h1{
+    text-align: center;
+    margin-bottom: 1.5rem;
+
+    font-weight: var(--font-bold);
+}
+.logout div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.logout div button {
+    width: 4rem;
+}

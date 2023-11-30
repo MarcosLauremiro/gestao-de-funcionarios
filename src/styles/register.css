@@ -1,0 +1,55 @@
+.main__controler{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    height: calc(100vh - 15vh);
+
+    background-image: url(../assets/img/Rectangle\ 7.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    font-family: var(--font-primary);
+}
+.main__container{
+    background-color: var(--color-white);
+
+    width: 26vw;
+    height: 57vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+
+    padding: 1.5rem;
+}
+.title-register{
+    width: 96%;
+}
+.title-register h1{
+    font-size: var(--font-size-2);
+    font-weight: var(--font-bold);
+    text-align: start;
+}
+.main__container form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+
+    width: 94%;
+}
+.main__container form input{
+    width: 100%;
+}
+.main__container form input::placeholder{
+    padding: .5rem;
+}
+.main__container form button{
+    width: 100%;
+}

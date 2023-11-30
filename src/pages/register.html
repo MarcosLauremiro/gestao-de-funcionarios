@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- LINKS STYLES -->
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/globalStyles.css">
+    <link rel="stylesheet" href="../styles/register.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/button.css">
+    <link rel="stylesheet" href="../styles/input.css">
+    <link rel="stylesheet" href="../styles/toast.css">
+
+    <!-- LINKS FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;600;700;800&display=swap" rel="stylesheet">
+
+    <title>Registro</title>
+</head>
+<body>
+    <header class="header__controler">
+        <div class="header__container">
+            <div>
+                <img src="../assets/img/elipse_header.svg" alt="">
+                <h1>Kenzie Empresas</h1>
+            </div>
+            <div class="login_register__container">
+                <button id="button-register-home" class="button">Home</button>
+                <button id="button-register-login" class="button button_blue_back">Login</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main__controler">
+        <div class="main__container">
+            <div class="title-register">
+                <h1>Cadastre-se</h1>
+            </div>
+
+            <form action="">
+                <input placeholder="Seu nome" type="text" class="input" name="name" id="name-register">
+                <input placeholder="Seu e-mail" class="input" type="email" name="email" id="email-register">
+                <input placeholder="Sua senha" class="input" type="password" name="password" id="password-register">
+                <button class="button button_blue_back button_create">Cadastrar</button>
+                <p>ou</p>
+                <button class="button">Retornar</button>
+            </form>
+        </div>
+    </main>
+
+    <div class="toast__container active">
+        <p>Login Realizado com sucesso</p>
+    </div>
+
+    <!-- LINKS SCRIPTS -->
+    <script type="module" src="../scripts/register.js"></script>
+</body>
+</html>
